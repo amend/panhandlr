@@ -4,8 +4,13 @@ exports.getIntersections = function(req, res) {
     req.app.db.models.Intersection.find( {}, function(err, intersections) {
 	    if (err) { console.error('error', err.stack); return;}
 
+	    //console.log('intersections: ' + JSON.stringify(intersections));
+	    ints = intersections[0].intersections;
+	    //console.log('ints: ' + JSON.stringify(ints));
+	    //vconsole.log(JSON.stringify(ints[0]));
+
 	    var response = {
-		result: intersections
+		result: ints
 	    };
 
 	    res.send(JSON.stringify(response));
