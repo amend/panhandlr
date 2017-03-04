@@ -22,7 +22,8 @@
         var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
         $.post(
-          "http://localhost:3000/getintersections",
+          //"http://localhost:3000/getintersections",
+          "http://52.41.153.62:3000/getintersections",
           function(data) {
             var intersections = JSON.parse(data);
             //console.log('intersections: ' + JSON.stringify(intersections));
