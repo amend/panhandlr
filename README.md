@@ -17,8 +17,13 @@ http://52.41.153.62:3000/
 tags
 
 best panhandling spots in austin
+
 best panhandling intersections in austin
+
 best panhandling streets in austin
+
 best intersections in austin to ask for money
+
 best spots in austin to ask for money
+
 best streets in austin to ask for money
