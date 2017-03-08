@@ -9,9 +9,6 @@ http://52.41.153.62:3000/
 
 # panhandlr
 
-<img src="http://i.imgur.com/4ufocHc.jpg" align="left" height="500" width="281" >
-<img src="http://i.imgur.com/acdGLyL.jpg" align="left" height="500" width="281" >
-
 ![](http://i.imgur.com/4ufocHc.jpg)
 ![](http://i.imgur.com/acdGLyL.jpg)
 
