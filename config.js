@@ -1,4 +1,12 @@
+
+var uri;
+if (process.env.NODE && ~process.env.NODE.indexOf("heroku")) {
+  uri = process.env.MONGOLAB_URI;
+} else {
+  uri = 'mongodb://localhost/traffic';
+}
+
 exports.mongodb = {
-    uri: 'mongodb://localhost/traffic',
-    auto_reconnect: true
+    'uri': uri,
+    'auto_reconnect': true
 };
